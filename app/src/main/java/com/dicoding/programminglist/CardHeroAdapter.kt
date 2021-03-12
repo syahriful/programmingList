@@ -38,6 +38,7 @@ class CardHeroAdapter(private var listLang: ArrayList<Lang>) :
             .into(holder.imgPhoto)
 
         holder.tvName.text = lang.name
+        holder.tvRecommend.text = lang.recommend
         holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listLang[holder.adapterPosition]) }
     }
 
@@ -47,6 +48,7 @@ class CardHeroAdapter(private var listLang: ArrayList<Lang>) :
 
     inner class CardViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val tvName: TextView = itemView.findViewById(R.id.tv_item_name)
+        val tvRecommend: TextView = itemView.findViewById(R.id.tv_item_recommend)
         val imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
     }
 }

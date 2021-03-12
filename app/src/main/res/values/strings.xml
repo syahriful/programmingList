@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Programming List</string>
+    <string name="image_splashscreen">Image_Splashscreen</string>
+    <string name="programming_language_list">Programming Language List</string>
+    <string name="about">About</string>
+    <string name="languageimage">LanguageImage</string>
+    <string name="language">Language</string>
+    <string name="description">Description</string>
+    <string name="details">Details</string>
+</resources>
